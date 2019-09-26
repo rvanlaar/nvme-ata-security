@@ -124,8 +124,8 @@ firmware: {}
 oacs: {:?}",
 			i.vid(),
 			i.ssvid(),
-			String::from_utf8_lossy(i.sn()),
 			String::from_utf8_lossy(i.mn()),
+			String::from_utf8_lossy(i.sn()),
 			String::from_utf8_lossy(i.fr()),
 			i.oacs()
 		));
